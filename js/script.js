@@ -23,8 +23,8 @@ const displayImage = function (randomImage) {
     authorSpan.innerHTML = author;
     img.src = imageAddress;
     imgDiv.classList.remove("hide");
-}
+};
 
 button.addEventListener("click", function () {
     getImage();
-})
+});
